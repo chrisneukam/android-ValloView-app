@@ -1,12 +1,17 @@
 # Gradle files
 .gradle/
 build/
+gradle-app.setting
 
 # Local configuration file (sdk path, etc)
 local.properties
 
 # Log/OS Files
 *.log
+
+# Build outputs
+/build/
+/**/build/
 
 # Android Studio generated files and folders
 captures/
@@ -23,7 +28,15 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
-# Keystore files
+# VS Code: ignore all VS Code settings but keep specific files
+.vscode/*
+!.vscode/
+!.vscode/tasks.json
+
+# macOS
+.DS_Store
+
+# Keystores and sensitive files
 *.jks
 *.keystore
 

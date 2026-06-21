@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Scaling Group for general margin
+    -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+
+        <!--
+            Large Curved "V" (Background Element)
+            ADJUSTED: Shifted upwards by 5 units on the Y-axis.
+        -->
+        <path
+            android:fillColor="#EBECED"
+            android:pathData="M36,30 C38,48 47,70 54,75 C61,70 70,48 72,30 L80,32 C72,57 63,83 54,87 C45,83 36,57 28,32 Z" />
+
+        <!-- Center Black Dot -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M54,54m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+
+        <!-- Blade 1: Top (0°) -->
+        <group
+            android:pivotX="54"
+            android:pivotY="54"
+            android:rotation="0">
+            <path
+                android:fillColor="#0033A0"
+                android:pathData="M54,48 C54,48 45,35 45,25 C45,15 62,18 60,25 C58,32 54,48 54,48 Z" />
+        </group>
+
+        <!-- Blade 2: Bottom Right (120°) -->
+        <group
+            android:pivotX="54"
+            android:pivotY="54"
+            android:rotation="120">
+            <path
+                android:fillColor="#0033A0"
+                android:pathData="M54,48 C54,48 45,35 45,25 C45,15 62,18 60,25 C58,32 54,48 54,48 Z" />
+        </group>
+
+        <!-- Blade 3: Bottom Left (240°) -->
+        <group
+            android:pivotX="54"
+            android:pivotY="54"
+            android:rotation="240">
+            <path
+                android:fillColor="#0033A0"
+                android:pathData="M54,48 C54,48 45,35 45,25 C45,15 62,18 60,25 C58,32 54,48 54,48 Z" />
+        </group>
+    </group>
+
+</vector>
