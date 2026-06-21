@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ValloView</string>
+    <string name="settings">Einstellungen</string>
+    <string name="verifying_service">Dienst wird überprüft…</string>
+    <string name="service_unavailable">Dienst nicht verfügbar</string>
+    <string name="enter_ip_title">IP der Lüftungsanlage eingeben</string>
+    <string name="ip_label">IPv4-Adresse (z.B. 192.168.1.53)</string>
+    <string name="new_ip_label">Neue IPv4-Adresse</string>
+    <string name="invalid_ip">Ungültige IPv4-Adresse</string>
+    <string name="save_connect">Speichern &amp; Verbinden</string>
+    <string name="save_reconnect">Speichern und Neu verbinden</string>
+    <string name="retry">Wiederholen</string>
+    <string name="version">Version %1$s</string>
+    <string name="language">Sprache</string>
+    <string name="language_english">Englisch</string>
+    <string name="language_german">Deutsch</string>
+</resources>
